@@ -1,12 +1,12 @@
 # playwright_stealth
 
-Transplanted from [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth), **Not perfect**.
+[playwright_stealth](https://github.com/AtuboDad/playwright_stealth)修改版 
 
-## Install
+## 修改内容
 
-```
-$ pip install playwright-stealth
-```
+- 合并PR
+- 修改默认语言为中文
+- 修改UA为全局替换headless，支持edge浏览器
 
 ## Usage
 
@@ -103,14 +103,3 @@ async def main():
 
 asyncio.run(main())
 ```
-
-## Test results
-### Playwright with stealth(no passed argument)
-![playwright with stealth](./images/example_with_stealth.png)
-
-### Playwright without stealth
-![playwright without stealth](./images/example_without_stealth.png)
-
-### Playwright with stealth(with passed argument) but as a mobile device
-*NB: Mobile device have no plugin unlike desktop*
-![playwright stealth with specified arguments](./images/example_with_stealth_passed_arguments.png)

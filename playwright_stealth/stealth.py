@@ -82,7 +82,7 @@ class StealthConfig:
     nav_vendor: str = "Google Inc."
     nav_user_agent: str = None
     nav_platform: str = None
-    languages: Tuple[str] = ("en-US", "en")
+    languages: Tuple[str] = ("zh-CN", "zh")
     runOnInsecureOrigins: Optional[bool] = None
 
     @property
